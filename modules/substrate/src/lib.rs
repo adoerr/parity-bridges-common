@@ -45,6 +45,8 @@ use sp_runtime::traits::{
 };
 use sp_std::{fmt::Debug, marker::PhantomData, prelude::*, str::FromStr};
 
+pub use justification::decode_justification_target;
+
 mod justification;
 mod storage;
 mod storage_proof;
