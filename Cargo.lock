@@ -715,6 +715,7 @@ version = "0.1.0"
 dependencies = [
  "sp-api",
  "sp-core",
+ "sp-runtime",
  "sp-std",
 ]
 
@@ -724,6 +725,7 @@ version = "0.1.0"
 dependencies = [
  "sp-api",
  "sp-core",
+ "sp-runtime",
  "sp-std",
 ]
 
@@ -3520,6 +3522,7 @@ version = "0.1.0"
 dependencies = [
  "bp-message-lane",
  "bp-millau",
+ "bp-rialto",
  "frame-executive",
  "frame-support",
  "frame-system",
@@ -3532,6 +3535,7 @@ dependencies = [
  "pallet-randomness-collective-flip",
  "pallet-session",
  "pallet-shift-session-manager",
+ "pallet-substrate-bridge",
  "pallet-sudo",
  "pallet-timestamp",
  "pallet-transaction-payment",
@@ -5266,6 +5270,7 @@ dependencies = [
  "pallet-randomness-collective-flip",
  "pallet-session",
  "pallet-shift-session-manager",
+ "pallet-substrate-bridge",
  "pallet-sudo",
  "pallet-timestamp",
  "pallet-transaction-payment",
