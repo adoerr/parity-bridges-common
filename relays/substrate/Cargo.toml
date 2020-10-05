@@ -24,3 +24,7 @@ relay-millau-client = { path = "../millau-client" }
 relay-rialto-client = { path = "../rialto-client" }
 relay-substrate-client = { path = "../substrate-client" }
 relay-utils = { path = "../utils" }
+
+# Substrate Dependencies
+
+sp-core = "2.0"
